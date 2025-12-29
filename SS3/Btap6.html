@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form method="get">
+        <tr>
+          <td><label for="userName">Họ và tên:</label></td>
+          <td><input type="text" name="userName" id="userName" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Ngày sinh:</label></td>
+          <td><input type="date" name="date" id="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Giới tính:</label></td>
+          <td>
+            <input type="radio" name="sex" id="sex" />Nam
+            <input type="radio" name="sex" id="sex" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tele">Số điện thoại: </label></td>
+          <td><input type="tel" name="tele" id="tele" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="cty">Tên công ty:</label></td>
+          <td><input type="text" name="cty" id="cty" /></td>
+        </tr>
+        <tr>
+          <td><label for="vaiTro">Vai trò trong công ty:</label></td>
+          <td>
+            <select name="vaiTro" id="vaiTro">
+              <option value="giamdoc">Giám đốc điều hành (CEO)</option>
+              <option value="nhanvien">Nhân viên</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="quyMo">Quy mô công ty:</label></td>
+          <td>
+            <select name="quyMo" id="quyMo">
+              <option value="nho">Doanh nghiệp nhỏ</option>
+              <option value="lon">Doanh nghiejp lớn</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="nganhNghe">Ngành nghề công ty:</label></td>
+          <td><input type="text" name="nganhNghe" id="nganhNghe" /></td>
+        </tr>
+        <tr>
+          <td><label for="lyDo">Lý do tham gia câu lạc bộ:</label></td>
+          <td><textarea name="lyDo" id="lyDo"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="kinhNghiem">Kinh nghiệm lãnh đạo:</label></td>
+          <td><textarea name="kinhNghiem" id="kinhNghiem"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="mucTieu">Mục tiêu tham gia câu lạc bộ:</label></td>
+          <td><textarea name="mucTieu" id="mucTieu"></textarea></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="chuongtrinh"
+              >Chương trình sự kiên mong muốn tham gia:</label
+            >
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              name="chuongtrinh"
+              id="chuongtrinh"
+            />Networking
+            <input
+              type="checkbox"
+              name="chuongtrinh"
+              id="chuongtrinh"
+            />Workshops
+            <input type="checkbox" name="chuongtrinh" id="chuongtrinh" />Hội
+            thảo
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dangKy">Đăng ký nhận bản tin:</label></td>
+          <td><input type="checkbox" name="dangKy" id="dangKy" />Có</td>
+        </tr>
+      </form>
+    </table>
+    <button type="button">Đăng ký hội viên</button>
+  </body>
+</html>

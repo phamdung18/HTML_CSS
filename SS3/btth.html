@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Đăng ký sinh viên mới</h1>
+    <form method="post">
+      <div>
+        <label for="userName">Họ và tên </label
+        ><input type="text" id="userName" name="userName" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Ngày sinh đầy đủ </label>
+        <input type="date" id="date" name="date" />
+      </div>
+      <br />
+      <div>
+        <label for="month">Tháng và năm nhập học </label>
+        <input type="month" name="month" id="month" />
+      </div>
+      <br />
+      <div>
+        <label for="time">Thời gian học </label>
+        <input type="time" name="time" id="time" />
+      </div>
+      <br />
+      <div>
+        <label for="gioitinh">Giới tính </label>
+        <input type="radio" id="nam" name="gioitinh" value="Nam" /> Nam
+        <input type="radio" id="nu" name="gioitinh" value="Nu" /> Nữ
+        <input type="radio" id="khac" name="gioitinh" value="Khac" /> Khác
+      </div>
+      <br />
+      <div>
+        <label for="email">Email sinh viên</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="muctieu">Mục tiêu học tập</label>
+        <textarea name="muctieu" id="muctieu" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="thanhpho">Cơ sở</label>
+        <select name="thanhpho" id="thanhpho">
+          <option value="hanoi">Hà Nội</option>
+          <option value="hochiminh">Hồ Chí Minh</option>
+          <option value="danang">Đà Nẵng</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="file">Ảnh thẻ sinh viên</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <br />
+      <div>
+        <label for="">Môn học yêu thích</label>
+        <input type="checkbox" /> Toán học <input type="checkbox" /> Lập trình
+        <input type="checkbox" /> Tiếng Anh <input type="checkbox" /> Vật Lý
+      </div>
+      <br />
+      <div>
+        <label for="range">Tiến độ học tập</label>
+        <input type="range" id="range" name="range" />
+      </div>
+      <br />
+      <div>
+        <label for="number">Năm học thứ</label>
+        <input type="number" id="number" name="number" />
+      </div>
+      <br />
+      <div>
+        <label for="search">Tìm kiếm khóa học</label>
+        <input type="search" name="search" id="search" />
+      </div>
+      <br />
+      <div>
+        <label for="color">Màu sắc yêu thích</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <br />
+      <div>
+        <button>Hủy</button>
+        <button type="reset">Làm mới</button>
+        <button type="submit">Gửi</button>
+      </div>
+    </form>
+  </body>
+</html>

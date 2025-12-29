@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form method="get">
+        <tr>
+          <td><label for="username">Họ và tên:</label></td>
+          <td><input type="text" name="username" id="username" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Ngày sinh</label></td>
+          <td><input type="date" id="date" name="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="gioitinh">Giới tính:</label></td>
+          <td>
+            <input type="radio" id="nam" name="gioitinh" value="Nam" /> Nam
+            <input type="radio" id="nu" name="gioitinh" value="Nu" /> Nữ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tel">Số điện thoại: </label></td>
+          <td><input type="tel" name="tel" id="tel" /></td>
+        </tr>
+        <tr>
+          <td><label for="chuyenNganh">Chuyên ngành:</label></td>
+          <td><input type="text" name="chuyenNganh" id="chuyenNganh" /></td>
+        </tr>
+        <tr>
+          <td><label for="year">Năm nhập học:</label></td>
+          <td><input type="number" id="year" name="year" /></td>
+        </tr>
+        <tr>
+          <td><label for="GPA">Điểm GPA:</label></td>
+          <td><input type="number" name="GPA" id="GPA" /></td>
+        </tr>
+        <tr>
+          <td><label for="class">Lớp học:</label></td>
+          <td>
+            <select name="class" id="class">
+              <option value="lop1">Lớp 1</option>
+              <option value="lop2">Lớp 2</option>
+              <option value="lop3">Lớp 3</option>
+              <option value="lop4">Lớp 4</option>
+              <option value="lop5">Lớp 5</option>
+              <option value="lop6">Lớp 6</option>
+              <option value="lop7">Lớp 7</option>
+              <option value="lop8">Lớp 8</option>
+              <option value="lop9">Lớp 9</option>
+              <option value="lop10">Lớp 10</option>
+              <option value="lop11">Lớp 11</option>
+              <option value="lop12">Lớp 12</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="local">Ngày đăng ký học:</label></td>
+          <td><input type="datetime-local" name="local" id="local" /></td>
+        </tr>
+      </form>
+    </table>
+    <button type="submit">Gửi thông tin</button>
+  </body>
+</html>

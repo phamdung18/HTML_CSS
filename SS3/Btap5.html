@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form method="get">
+        <tr>
+        <td><label for="userName">Họ và tên:</label></td>
+        <td><input type="text" name="userName" id="userName" /></td>
+      </tr>
+      <tr>
+        <td><label for="date">Ngày sinh:</label></td>
+        <td><input type="date" name="date" id="date" /></td>
+      </tr>
+      <tr>
+        <td><label for="tele">Số điện thoại: </label></td>
+        <td><input type="tel" name="tele" id="tele" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" id="email" /></td>
+      </tr>
+      <tr>
+        <td><label for="diaChi">Địa chỉ:</label></td>
+        <td><textarea name="diaChi" id="diaChi"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="vaiTro">Vai trò trong nhóm:</label></td>
+        <td>
+          <select name="vaiTro" id="vaiTro">
+            <option value="thanhVien">Thành viên</option>
+            <option value="truongNhom">Trưởng nhóm</option>
+            <option value="phoNhom">Phó nhóm</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="soThich">Sở thích:</label></td>
+        <td><input type="text" name="soThich" id="soThich" /></td>
+      </tr>
+      <tr>
+        <td><label for="kyNang">Kỹ năng:</label></td>
+        <td><textarea name="kyNang" id="kyNang"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="time">Thời gian rảnh:</label></td>
+        <td>
+          <input type="checkbox" name="time" id="time" /> Sáng
+          <input type="checkbox" name="time" id="time" /> Chiều
+          <input type="checkbox" name="time" id="time" /> Tối
+        </td>
+      </tr>
+      <tr>
+        <td><label for="lyDo">Lý do thanh gia nhóm:</label></td>
+        <td><textarea name="lyDo" id="lyDo"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="color">Màu yêu thích:</label></td>
+        <td><input type="color" /></td>
+      </tr>
+      <tr>
+        <td><label for="nhanBanTin">Đăng ký nhận bản tin:</label></td>
+        <td><input type="checkbox" name="nhanBanTin" id="nhanBanTin" />Có</td>
+      </tr>
+      <tr>
+        <td><label for="nhanThongBao"></label>Nhận thông báo qua email:</td>
+        <td><input type="radio" />Email <input type="radio" />SMS</td>
+      </tr>
+    </table>
+      </form>
+    <button type="button">Đăng ký thành viên</button>
+  </body>
+</html>
