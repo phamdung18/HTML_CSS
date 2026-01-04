@@ -1,0 +1,13 @@
+.header{
+    background-color: #1eff29;
+    text-align: center;
+    color:black;
+}
+.header h1{
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.header p{
+    font-style: italic;
+}
