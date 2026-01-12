@@ -1,0 +1,21 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #1e90ff;
+}
+
+input,
+textarea {
+    border-color: #1e90ff;
+}
+
+button {
+    background-color: #00bfff;
+    color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

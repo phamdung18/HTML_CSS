@@ -1,0 +1,10 @@
+h3 {
+    color: #1e90ff;
+    text-align: center;
+}
+
+h3,
+div {
+    background-color: #f4f4f9;
+    margin: 0;
+}
