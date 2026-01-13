@@ -9,7 +9,7 @@
 }
 .header1{
     margin-left: 10px;
-    width: 98.8%;
+    width: 98%;
     height: 42px;
      background-color: rgb(206, 248, 241);
     text-align: center;
@@ -19,7 +19,7 @@ h1{
 }
 .header_menu{
      margin-left: 10px;
-    width: 98.8%;
+    width: 98%;
     height: 24px ;
     background-color: rgb(195, 243, 247);
      text-align: center;
@@ -43,7 +43,7 @@ a{
 
 .body_info{
      margin-left: 10px;
-    width: 98.8%;
+    width: 98%;
     background-color: rgb(255, 255, 255);
     font-size: 19px;
 }
@@ -55,7 +55,7 @@ h2{
 
 .body_bottom{
     margin-left: 10px;
-    width: 98.8%;
+    width: 98%;
      height: 112px;
     background-color: rgb(255, 255, 255);
 }
@@ -64,6 +64,7 @@ h2{
     font-size: 18px;
     padding-left: 0;
 }
+
 
 .list ul{
      list-style: disc;
@@ -80,7 +81,7 @@ h2{
 }
 .footer{
     margin-left: 10px;
-    width: 98.8%;
+    width: 98%;
     height: 54px;
      background-color: rgb(35, 130, 123);
     text-align: center;
