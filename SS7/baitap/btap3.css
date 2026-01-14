@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffff;
+}
+.doctor-card{
+    width: 380px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    background: #fff;
+}
+.doctor-header{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.doctor-header .star{
+    color: gold;
+    max-width: 6px;
+}
+.doctor-header .title{
+    color: orange;
+}
+.doctor-image img{
+    width: 100%;
+    display: block;
+}
+.doctor-body{
+    padding: 15px;
+}
+.doctor-body h2{
+    margin: 0 0 6px;
+    font-size: 24px;
+    color: black;
+}
+.doctor-body h3{
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #1eff29;
+}
+.doctor-body p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #070000;
+}
