@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #78350f;
+    background-color: #fff7ed;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #fde68a;
+    padding: 40px 20px;
+}
+h1 {
+    font-size: 36px;
+}
+header p {
+    font-size: 18px;
+    color: black;
+}
+nav {
+    background-color: #fed7aa;
+    padding: 10px;
+}
+nav a {
+    font-weight: 600;
+    font-size: 17px;
+    color: #7c2d12;
+    text-decoration: none;
+    margin: 0px 8px;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: white;
+    background-color: #c2410c;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+.picture {
+    position: relative;
+}
+.picture img {
+    width: 100%;
+}
+.corner {
+    text-align: left;
+    width: 400px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 40px;
+    top: 370px;
+}
+.information {
+    padding: 40px;
+    background-color: #fff7ed;
+}
+.people h2 {
+    margin-bottom: 20px;
+}
+.people {
+    padding-bottom: 80px;
+}
+.vision h2 {
+    padding: 30px;
+}
+.vision p {
+    font-size: 18px;
+    padding: 10px;
+}
+.cost {
+    background-color: #fffbeb;
+    padding: 30px;
+}
+.cost h2 {
+    padding: 20px;
+}
+footer {
+    background-color: #78350f;
+    color: white;
+    padding: 20px;
+}
