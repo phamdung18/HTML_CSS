@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    background-color: tomato;
+    height: 400px;
+   /* justify-content: flex-start;*/
+    flex-direction: row;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    gap: 15px;
+    align-content: center;
+    
+
+}
+.main .item{
+    width: 500px;
+    height: 50px;
+    background-color: green;
+    border: 2px solid yellow;
+}
+.item1{
+    flex: 1.5;
+}
+.item2{
+    flex: 1.5;
+}
+.item3{
+    flex: 1;
+}
+.item4{
+    flex: 1;
+}
+.item5{
+    flex: 1;
+}

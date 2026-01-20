@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 700px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    Justify-content: center
+}
+
+.item img {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    font: 1em sans-serif;
+}
+
+p {
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}

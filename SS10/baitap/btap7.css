@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.hero {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    background: #faf7f2;
+}
+
+.service-card {
+    width: 220px;
+    height: 140px;
+    background: #333;
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    align-items: flex-end;
+    padding: 14px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.booking {
+    background: #8b0000;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.booking-form {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 10px;
+    width: 240px;
+    border-radius: 6px;
+    border: none;
+}
+
+.booking-form button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: #8b0000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    background: #1c1c1c;
+    color: #aaa;
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+}
