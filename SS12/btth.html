@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elearning Dashboard</title>
+    <link rel="stylesheet" href="./btth.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container header-content">
+            <h1 class="logo">Elearning</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm khóa học...">
+            </div>
+            <nav class="menu">
+                <a href="#">Khóa học</a>
+                <a href="#">Tiến độ</a>
+                <a href="#">Hồ sơ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="welcome-card">
+            <div class="welcome-text">
+                <h2>Xin chào, Bạn tôi!</h2>
+                <p>Chúc bạn học tập hiệu quả hôm nay</p>
+            </div>
+            <div class="overall-progress">
+                <div class="progress-info">
+                    <span>Tiến độ tổng: 68%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 68%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-section">
+            <h3 class="section-title">Khóa học đang học</h3>
+            <div class="course-grid grid-3">
+                <div class="card">
+                    <img src="https://picsum.photos/400/200?random=1" alt="CSS">
+                    <div class="card-body">
+                        <h4>CSS Flexbox & Grid</h4>
+                        <p>Hoàn thành: 85%</p>
+                        <button class="btn btn-primary">Tiếp tục học</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/400/200?random=2" alt="JS">
+                    <div class="card-body">
+                        <h4>JavaScript Cơ bản</h4>
+                        <p>Hoàn thành: 42%</p>
+                        <button class="btn btn-primary">Tiếp tục học</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/400/200?random=3" alt="RWD">
+                    <div class="card-body">
+                        <h4>Responsive Web Design</h4>
+                        <p>Hoàn thành: 95%</p>
+                        <button class="btn btn-primary">Tiếp tục học</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-section">
+            <h3 class="section-title">Khóa học gợi ý</h3>
+            <div class="course-grid grid-2">
+                <div class="card">
+                    <img src="https://picsum.photos/600/300?random=4" alt="React">
+                    <div class="card-body">
+                        <h4>React cho người mới</h4>
+                        <p>Bắt đầu ngay hôm nay</p>
+                        <button class="btn btn-primary">Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/600/300?random=5" alt="Python">
+                    <div class="card-body">
+                        <h4>Python Cơ bản</h4>
+                        <p>Phù hợp beginner</p>
+                        <button class="btn btn-primary">Xem chi tiết</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

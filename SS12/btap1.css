@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+
+    display: flex;
+
+
+}
+
+.list-link {
+    display: flex;
+    gap: 25px;
+
+
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+
+
+/* điện thoại */
+@media screen and (max-width:480px) {
+    .header {
+
+        flex: 0 0 calc((100%-25px)/8);
+    }
+}
+
+/* ipad */
+@media screen and (min-width:481px) and (max-width:768px) {
+    .header {
+        flex: 0 0 calc((100%-25px)/8);
+
+    }
+}
+
+/* máy tính bé */
+@media screen and (min-width:769px) and (max-width:1279) {
+    .header {
+        flex: 0 0 calc((100%-25px)/8);
+
+    }
+}

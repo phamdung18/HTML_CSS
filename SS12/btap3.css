@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f6f7fb;
+    padding: 40px 20px;
+}
+
+
+.pricing {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    background: #eef0ff;
+    color: #5b6cff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+
+.pricing-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.pricing-card {
+    background: #fff;
+    width: 320px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5b6cff;
+    margin-bottom: 20px;
+}
+
+.price .duration {
+    font-size: 14px;
+    color: #777;
+}
+
+.price.contact {
+    font-size: 26px;
+}
+
+
+ul {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 14px;
+    position: relative;
+    padding-left: 22px;
+}
+
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+}
+
+
+button {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button.primary {
+    background: #4f6bff;
+    color: #fff;
+    border: none;
+}
+
+button.outline {
+    background: transparent;
+    border: 1px solid #4f6bff;
+    color: #4f6bff;
+}
+
+
+.featured {
+    border: 2px solid #4f6bff;
+    transform: translateY(-10px);
+}
+
+@media (max-width: 900px) {
+    .pricing-list {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .pricing-card {
+        width: 100%;
+    }
+
+    .featured {
+        transform: none;
+    }
+}

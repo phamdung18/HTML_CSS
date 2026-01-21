@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.footer {
+    background-color: #0f172a;
+
+    color: #94a3b8;
+
+    padding: 60px 0 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+/* Các cột chung */
+.footer-col {
+    flex: 1;
+    min-width: 150px;
+}
+
+.brand-col {
+    flex: 2;
+    /* Cột logo rộng hơn */
+    min-width: 250px;
+}
+
+/* Typography */
+.logo {
+    color: #818cf8;
+    /* Màu tím nhạt của logo */
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.description {
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 300px;
+}
+
+.footer-col h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a,
+.contact-col p {
+    text-decoration: none;
+    color: #94a3b8;
+    transition: color 0.3s;
+    font-size: 15px;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+}
+
+/* Icons & Social */
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #818cf8;
+}
+
+.contact-col p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.heart {
+    color: #ef4444;
+}
+
+/* --- RESPONSIVE --- */
+
+/* Tablet (Dưới 1024px) */
+@media (max-width: 1024px) {
+    .footer-col {
+        flex: 1 1 30%;
+        /* Hiện 3 cột 1 hàng */
+    }
+
+    .brand-col {
+        flex: 1 1 100%;
+        /* Brand chiếm trọn hàng đầu */
+    }
+}
+
+/* Mobile (Dưới 768px) */
+@media (max-width: 768px) {
+    .footer-col {
+        flex: 1 1 45%;
+        /* Hiện 2 cột 1 hàng */
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Mobile nhỏ (Dưới 480px) */
+@media (max-width: 480px) {
+    .footer-col {
+        flex: 1 1 100%;
+        /* Mỗi mục 1 hàng */
+    }
+}

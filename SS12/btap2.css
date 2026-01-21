@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+    padding: 40px;
+}
+
+/* CARD */
+.course-card {
+    width: 360px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin: auto;
+}
+
+/* IMAGE */
+.card-image {
+    height: 180px;
+    background: linear-gradient(135deg, #6a7cff, #7f5cff);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image .icon {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+
+.card-content {
+    padding: 16px;
+}
+
+.category {
+    display: inline-block;
+    background: #eef0ff;
+    color: #5b6cff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-row h3 {
+    font-size: 18px;
+}
+
+.rating {
+    font-size: 14px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 18px;
+    color: #5b6cff;
+    font-weight: bold;
+}
+
+button {
+    background: #4f6bff;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .course-card {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .card-image {
+        height: 150px;
+    }
+
+    .title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+    }
+}
