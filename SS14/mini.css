@@ -1,0 +1,547 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo-header {
+    width: 114px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    text-decoration: none;
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: medium;
+
+}
+
+.button {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.log-in {
+    background-color: #FFFFFF;
+    color: #6366F1;
+    border: 2px solid #6366F1;
+    border-radius: 8px;
+    padding: 16px 22px 17px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sign-up {
+    background-color: #6366F1;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #6366F1;
+    border-radius: 8px;
+    padding: 16px 22px;
+}
+
+.main {}
+
+.header-main {}
+
+.banner {
+    background-color: #6366F1;
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px 120px;
+}
+
+.descrip {
+    color: #FFFFFF;
+}
+
+.descrip h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 32px;
+}
+
+.descrip p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.descrip button {
+    color: white;
+    background-color: #6366F1;
+    border: none;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-top: 32px;
+    gap: 24px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 20px 34px;
+    text-align: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.detail-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.detail-card .icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.detail-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #6366F1;
+    margin-bottom: 8px;
+}
+
+.detail-card p {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.detail-top .big {
+    flex: 1;
+}
+
+
+.detail-bottom {
+    display: flex;
+    gap: 24px;
+}
+
+.detail-bottom .detail-card {
+    width: 200px;
+}
+
+.impress {
+    background-color: #F9FAFB;
+}
+
+.why-option {
+    text-align: center;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    padding-top: 64px;
+}
+
+.list-impress {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.option-impress {
+    background-color: #ffffff;
+    flex: 1;
+    max-width: 260px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    margin: 48px 0 64px 0;
+}
+
+.icon-impress {
+    font-weight: 400;
+    font-size: 35.8px;
+    line-height: 76.8px;
+    letter-spacing: 0%;
+    padding-top: 48px;
+}
+
+.title-impress {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 20px 0px;
+}
+
+.des-impress {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    padding: 0 50px 84px;
+}
+
+.course {}
+
+.title {
+    text-align: center;
+}
+
+.course-impress {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 64px;
+    margin-top: 64px;
+}
+
+.discover {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-top: 24px;
+}
+
+.menu-course {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 48px;
+
+}
+
+.my-cource {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.course-image {
+    position: relative;
+}
+
+.course-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: white;
+    background-color: #6366F1;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
+
+.badge-tk {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: white;
+    background-color: #EC4899;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
+
+.course-content {
+    padding: 33px;
+}
+
+.category {
+    color: #6366F1;
+    background-color: #F9FAFB;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 22.4px;
+    border-radius: 6px;
+    padding: 7px 12px;
+    margin-bottom: 19px;
+}
+
+.title-course {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 19px;
+}
+
+.course-des {
+    color: #6B7280;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+.in {
+    color: #6B7280;
+    gap: 20px;
+    margin-bottom: 27px;
+}
+
+.diven {
+    height: 1px;
+    background-color: #E5E7EB;
+
+}
+
+.foot-course {
+    padding: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.in-foot {
+    display: flex;
+    flex-direction: column;
+}
+
+.old {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-decoration: line-through;
+
+}
+
+.new {
+    color: #6366F1;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 23.6px;
+    line-height: 38.4px;
+
+}
+
+.btn {
+    background-color: #6366F1;
+    color: white;
+    padding: 16px 22px;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    /* xanh đậm */
+    color: #D1D5DB;
+    padding: 64px 0 32px;
+}
+
+.footer .container {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+.column1 {
+    max-width: 320px;
+}
+
+.footer-des {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #D1D5DB;
+}
+
+.footer-link {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+.footer-link a:hover {
+    color: #FFFFFF;
+}
+
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #9CA3AF;
+}
+
+.footer-links a:hover {
+    color: #FFFFFF;
+}
+
+.footer-bottom {
+    border-top: 1px solid #374151;
+    padding-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #9CA3AF;
+}
+
+@media (max-width: 1024px) {
+    .banner {
+        flex-direction: column;
+        gap: 48px;
+        text-align: center;
+    }
+
+    .detail {
+        align-items: center;
+    }
+
+    .detail-top .big {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .detail-bottom {
+        gap: 20px;
+    }
+
+    .detail-bottom .detail-card {
+        width: 170px;
+    }
+}
+
+@media (max-width: 768px) {
+    .detail {
+        width: 100%;
+        align-items: stretch;
+    }
+
+    .detail-top .big {
+        width: 100%;
+    }
+
+    .detail-bottom {
+        flex-direction: column;
+    }
+
+    .detail-bottom .detail-card {
+        width: 100%;
+    }
+
+    .detail-card {
+        padding: 24px;
+    }
+
+    .detail-card h3 {
+        font-size: 24px;
+    }
+
+    .footer .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .column1,
+    .column2,
+    .column3,
+    .column4 {
+        width: 100%;
+    }
+
+    .footer-des {
+        max-width: 280px;
+        margin: 0 auto 16px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .footer-link {
+        justify-content: center;
+    }
+
+    .footer-title {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .footer-links li {
+        margin-bottom: 8px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 13px;
+        padding-top: 20px;
+    }
+}
